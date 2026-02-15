@@ -7,10 +7,14 @@
 
             try
             {
+                OrderingApp.Main4();
+
                 // This is unhanled exception and app will crashhhh!
-                BaseMethod(4);
+                BaseMethod(5);
 
                 AnotherImpMethodThatneedsToBeExecuted();
+
+                TryCatchFinallyExample();
 
                 Console.ReadLine();
             }
@@ -30,7 +34,7 @@
             //add exception handling in child method and see the difference
             try
             {
-                
+
 
                 int result = ChildMethodWithExceptionHandling(index);
 
@@ -53,13 +57,20 @@
                 //while throw ex; will reset the stack trace to the point where the exception is rethrown.
                 //It's generally recommended to use throw without specifying the exception variable to maintain the original stack trace for better debugging.
 
+                //throw ex should NEVER be used with existing caught exception object because it will reset the stack trace and make it harder to debug the original issue.
+                //thorw ex should be used when you want to throw a new exception with the caught exception as the inner exception, providing more context about the error while preserving the original exception details.
+
+                //e.g. in the conext of BaseMethod throwing index out of range in not proper, rather we should throw invalid Argument exception and enclose the inner exception as the original index out of range exception.
+
+                throw new ArgumentException("Invalid index provided!", ex);
+
                 //then why throw ex exists? 
                 //Because C# allows you to throw any exception object, not only the one you just caught.
                 //e.g. Throwing a different exception object - as below
 
                 throw new InvalidOperationException("Invalid operation!", ex); //So in this case "Index out of range" exception will be the inner exception of "Invalid operation!" exception.
                                                                                //This way you can provide more context about the error while still preserving the original exception details.
-                //return -1;
+                                                                               //return -1;
             }
 
         }
@@ -81,8 +92,8 @@
         {
             //try
             //{
-                int[] arr = { 1, 2, 3, 4, 5 };
-                return arr[index];
+            int[] arr = { 1, 2, 3, 4, 5 };
+            return arr[index];
             //}
             //catch (IndexOutOfRangeException ex)
             //{
@@ -102,16 +113,22 @@
             //}
         }
 
-
-
-
-
-
-
-
-
-
-
-
+        private static void TryCatchFinallyExample()
+        {
+            try
+            {
+                Console.WriteLine("Trying to execute some code...");
+                // Simulate an error
+                throw new Exception("Something went wrong!");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Caught an exception: " + ex.Message);
+            }
+            finally
+            {
+                Console.WriteLine("This will always execute, regardless of whether an exception was thrown or caught.");
+            }
+        }
     }
 }
