@@ -1,0 +1,15 @@
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSCollections\bin\Debug\net8.0\CSCollections.exe
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSCollections\bin\Debug\net8.0\CSCollections.deps.json
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSCollections\bin\Debug\net8.0\CSCollections.runtimeconfig.json
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSCollections\bin\Debug\net8.0\CSCollections.dll
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSCollections\bin\Debug\net8.0\CSCollections.pdb
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSCollections\obj\Debug\net8.0\CSCollections.GeneratedMSBuildEditorConfig.editorconfig
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSCollections\obj\Debug\net8.0\CSCollections.AssemblyInfoInputs.cache
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSCollections\obj\Debug\net8.0\CSCollections.AssemblyInfo.cs
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSCollections\obj\Debug\net8.0\CSCollections.csproj.CoreCompileInputs.cache
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSCollections\obj\Debug\net8.0\CSCollections.sourcelink.json
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSCollections\obj\Debug\net8.0\CSCollections.dll
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSCollections\obj\Debug\net8.0\refint\CSCollections.dll
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSCollections\obj\Debug\net8.0\CSCollections.pdb
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSCollections\obj\Debug\net8.0\CSCollections.genruntimeconfig.cache
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSCollections\obj\Debug\net8.0\ref\CSCollections.dll

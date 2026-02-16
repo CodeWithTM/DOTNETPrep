@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using CSGenerics.PaymentApp;
+using System.Collections;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
@@ -23,6 +24,10 @@ namespace CSGenerics
         static void Main(string[] args)
         {
 
+            PaymentClient paymentClient = new PaymentClient();
+            paymentClient.Main5();
+
+            /*
             NonGenerics nonGenerics = new NonGenerics();    
 
             nonGenerics.Main2();
@@ -61,6 +66,9 @@ namespace CSGenerics
             string? str = null;
             arrayList.Add(str); // No boxing occurs here for reference type 'string', but it can lead to runtime errors if str is null or not a string when accessed later.
 
+            */
+
+            Console.ReadLine();
         }
 
         public static void GenericMethod<T>(T parameter)

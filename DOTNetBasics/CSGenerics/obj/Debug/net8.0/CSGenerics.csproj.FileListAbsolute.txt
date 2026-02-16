@@ -1,0 +1,15 @@
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSGenerics\bin\Debug\net8.0\CSGenerics.exe
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSGenerics\bin\Debug\net8.0\CSGenerics.deps.json
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSGenerics\bin\Debug\net8.0\CSGenerics.runtimeconfig.json
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSGenerics\bin\Debug\net8.0\CSGenerics.dll
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSGenerics\bin\Debug\net8.0\CSGenerics.pdb
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSGenerics\obj\Debug\net8.0\CSGenerics.GeneratedMSBuildEditorConfig.editorconfig
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSGenerics\obj\Debug\net8.0\CSGenerics.AssemblyInfoInputs.cache
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSGenerics\obj\Debug\net8.0\CSGenerics.AssemblyInfo.cs
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSGenerics\obj\Debug\net8.0\CSGenerics.csproj.CoreCompileInputs.cache
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSGenerics\obj\Debug\net8.0\CSGenerics.sourcelink.json
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSGenerics\obj\Debug\net8.0\CSGenerics.dll
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSGenerics\obj\Debug\net8.0\refint\CSGenerics.dll
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSGenerics\obj\Debug\net8.0\CSGenerics.pdb
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSGenerics\obj\Debug\net8.0\CSGenerics.genruntimeconfig.cache
+C:\TM\Git-Source-Repos\DotNETPrep\DOTNETPrep\DOTNetBasics\CSGenerics\obj\Debug\net8.0\ref\CSGenerics.dll

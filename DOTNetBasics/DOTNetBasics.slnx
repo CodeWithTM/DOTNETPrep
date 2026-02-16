@@ -1,5 +1,7 @@
 <Solution>
+  <Project Path="CSCollections/CSCollections.csproj" Id="ef9182de-23c1-4daa-af0a-78bc72ec7cdb" />
   <Project Path="CSGenerics/CSGenerics.csproj" />
+  <Project Path="DI/DI.csproj" Id="88d9e69a-2734-4b4d-99e3-9ee4f02f3165" />
   <Project Path="ExceptionHandling/ExceptionHandling.csproj" />
   <Project Path="FileHandling/FileHandling.csproj" />
 </Solution>
