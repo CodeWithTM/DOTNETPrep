@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 
 namespace CSGenerics
 {
@@ -21,6 +22,14 @@ namespace CSGenerics
     {
         static void Main(string[] args)
         {
+
+            NonGenerics nonGenerics = new NonGenerics();    
+
+            nonGenerics.Main2();
+
+            GenericRepositoryExample example = new GenericRepositoryExample();
+            example.Main4();
+
             Console.WriteLine("Hello, World!");
 
             int x = 5; int y = 15; int z = 0;
