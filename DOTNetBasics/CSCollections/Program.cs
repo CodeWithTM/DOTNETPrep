@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Concurrent;
+using System.Runtime.CompilerServices;
 
 namespace CSCollections
 {
@@ -29,6 +30,30 @@ namespace CSCollections
 
         static void Main(string[] args)
         {
+
+            List<int> intList = new List<int>() { 10, 20, 30, 40, 50 };
+
+            // ForEach not available as Extension method, rather it is instance member
+            intList.ForEach(i => Console.WriteLine(i));
+
+            // Find vs FindAll vs Where
+            // Find and FindAll works with List<T> only
+            // Find, FindAll --> IMMEDIATE execution and NOT deferred like WHERE
+
+            // Where -> return IEnumerable and deferred/lazy
+
+            var firstEle = intList.First(i => i > 50); // Return type will be int and NOT IEnumerable . Note* Throws exception if no matching records found
+
+            var greaterThan20 = intList.FindAll(i => i > 20);
+
+            var greatherThanEnumerable = intList.Where(i => i > 20);
+
+            
+
+            //intList.FindAll
+
+            //We can write our own extension method
+            intList.ForEachEx(i => Console.WriteLine(i));
 
             Tricks.main2();
 
@@ -90,7 +115,7 @@ namespace CSCollections
             }
         }
 
-        
+
         static void RegisterHit_Dictionary(string userId)
         {
             if (!hits.ContainsKey(userId))
@@ -99,8 +124,9 @@ namespace CSCollections
             hits[userId]++;
         }
 
-        public static void GenericCollections() { 
-        
+        public static void GenericCollections()
+        {
+
             HashSet<int> list = new HashSet<int>();
             //stores only unique values, so if we try to add duplicate value, it will not be added to the collection
 
@@ -128,7 +154,7 @@ namespace CSCollections
             sortedStr.Add("2", 2);
             //sortedStr.Add("1", 4);  // This will throw an exception as keys must be unique in a sorted list
 
-            
+
             // It sorts based on the lexicographical order of the keys. In this case, the keys are "1", "2", and "3", so the elements are stored in ascending order of the keys as "1", "2", and "3". Therefore, the sorted list will be stored as:
 
 
@@ -138,6 +164,14 @@ namespace CSCollections
             keyValuePairs.Add(new Student { Id = 1, Name = "A" }, 1);
             keyValuePairs.Add(new Student { Id = 3, Name = "C" }, 3);
             // This will throw an exception as keys must be unique in a sorted list and also the Student class does not implement IComparable interface, so it cannot be compared to determine the order of the keys in the sorted list. To use a custom class as a key in a sorted list, you need to implement the IComparable interface and provide a comparison method that defines how the keys should be compared and sorted.
+
+
+            List<int> intList = new List<int>() { 10, 20, 30, 40, 50 };
+
+
+            intList.ForEach(i => Console.WriteLine(i));
+
+            intList.ForEachEx(i => Console.WriteLine(i));
         }
 
         public static void RemoveDuplicatesFromList()
@@ -215,6 +249,21 @@ namespace CSCollections
             if (concurrentDict.TryGetValue("apple", out int value))
             {
                 Console.WriteLine($"Value for 'apple': {value}");
+            }
+        }
+    }
+
+    public static class ListExtension
+    {
+        public static void ForEachEx(this List<int> collection, Action<int> actions)
+        {
+
+            if (actions == null)
+                throw new ArgumentNullException();
+
+            for (int i = 0; i < collection.Count; i++)
+            {
+                actions(collection[i]);
             }
         }
     }

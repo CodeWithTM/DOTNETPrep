@@ -92,6 +92,9 @@ namespace CSGenerics
 
         public async Task<List<T>> GetAsync(QueryOptions<T>? options = null)
         {
+
+            
+
             throw new NotImplementedException();
         }
     }
