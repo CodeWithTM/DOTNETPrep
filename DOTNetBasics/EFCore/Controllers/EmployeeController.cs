@@ -21,6 +21,8 @@ namespace EFCore.Controllers
 
             var emps = _context.Employees.AsNoTracking().ToList();
 
+            //_context = null; if it was not readonly someone can accidently modify this
+
             //AoNoTracking
             //This is useful when we are only reading data and we don't need to update it,
             //it will improve performance and reduce memory usage
@@ -35,9 +37,6 @@ namespace EFCore.Controllers
         [HttpGet("{id}")]
         public IActionResult GetEmployeeById(int id)
         {
-
-
-
             var employee = _context.Employees.Find(id);
             if (employee == null)
             {

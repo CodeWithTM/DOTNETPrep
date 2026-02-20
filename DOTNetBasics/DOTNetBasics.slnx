@@ -4,7 +4,9 @@
   <Project Path="CSPersonsApp/CSPersonsApp.csproj" Id="6ae0f6a0-001a-4cb1-b09e-b2a5dc6daf50" />
   <Project Path="Delegates/Delegates.csproj" Id="9e52582e-358f-42fa-8ea4-9cd3f5b33425" />
   <Project Path="DI/DI.csproj" Id="88d9e69a-2734-4b4d-99e3-9ee4f02f3165" />
+  <Project Path="DisposeFinalize/DisposeFinalize.csproj" Id="0a62a051-009a-49e5-b38d-d9c5cc488e3e" />
   <Project Path="EFCore/EFCore.csproj" />
   <Project Path="ExceptionHandling/ExceptionHandling.csproj" />
   <Project Path="FileHandling/FileHandling.csproj" />
+  <Project Path="Polymorh/Polymorh.csproj" Id="8679dbaa-44c2-47c1-b603-a08bc2978543" />
 </Solution>
