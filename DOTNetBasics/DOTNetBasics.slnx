@@ -8,5 +8,6 @@
   <Project Path="EFCore/EFCore.csproj" />
   <Project Path="ExceptionHandling/ExceptionHandling.csproj" />
   <Project Path="FileHandling/FileHandling.csproj" />
+  <Project Path="InterfaceWithDefaultMethods/InterfaceWithDefaultMethods.csproj" Id="3246813b-0306-41f7-82c1-0f7b34240adf" />
   <Project Path="Polymorh/Polymorh.csproj" Id="8679dbaa-44c2-47c1-b603-a08bc2978543" />
 </Solution>
