@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
 
+            GCDemo.MainGC(args);
             IDispoPattern.MainDisp();
 
             Console.ReadLine();

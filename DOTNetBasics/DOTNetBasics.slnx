@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="AsyncProgrammingInCS/AsyncProgrammingInCS.csproj" Id="6e692d1e-781a-4946-b405-e006f4b6dd51" />
   <Project Path="CSCollections/CSCollections.csproj" Id="ef9182de-23c1-4daa-af0a-78bc72ec7cdb" />
   <Project Path="CSGenerics/CSGenerics.csproj" />
   <Project Path="CSPersonsApp/CSPersonsApp.csproj" Id="6ae0f6a0-001a-4cb1-b09e-b2a5dc6daf50" />
