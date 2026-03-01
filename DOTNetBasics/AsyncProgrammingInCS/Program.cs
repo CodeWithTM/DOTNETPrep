@@ -23,6 +23,19 @@ namespace AsyncProgrammingInCS
         static async Task Main(string[] args)
         {
 
+            await CToken.MainCToken();
+
+            //await TaskWait.MainWait();
+
+            //await TAPBasedProg.MainTAP();
+
+            //await ThreadClassCtor.NonBlockingWait();
+            //ThreadClassCtor.MainTClass();
+
+            Console.WriteLine("in main");
+
+            Console.ReadLine();
+
             await TaskRun.MainRun();
 
             Console.WriteLine("Before calling delay");

@@ -150,7 +150,7 @@ namespace AsyncProgrammingInCS
         {
             await Task.Delay(1000);
         }
-        // ->
+        // --->>
         public static async Task TaskAsReturn()
         {
             await Task.Delay(1000);
